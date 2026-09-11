@@ -88,3 +88,33 @@ The group does not yet grant access to employee records;
 resource permissions still need to be configured.
 
 ###Screenshot<img width="1182" height="802" alt="02-hr-group-membership" src="https://github.com/user-attachments/assets/0ea8b9a6-e1c2-49be-bc6b-3e629c804b02" />
+
+
+## Activity 3 — Transfer an employee between departments
+
+### Business scenario
+Ada moves from HR to Finance.
+Manager approval is simulated for this lab.
+
+### Actions completed
+- Created SG-Finance-Readers.
+- Removed Ada from SG-HR-Readers.
+- Added Ada to SG-Finance-Readers.
+
+### Verification
+- Confirmed Ada was absent from the HR group's member list.
+- ##screenshot
+- <img width="1182" height="802" alt="03-hr-membership-removed" src="https://github.com/user-attachments/assets/ba79653d-707d-45a6-b02a-2d1a965c69f1" />
+
+- Confirmed Ada was present in the Finance group's member list.
+- ##screenshot<img width="1182" height="802" alt="04-finance-membership-added" src="https://github.com/user-attachments/assets/07677d51-706f-4995-b80f-81521196a593" />
+
+
+[Ada's updated Finance department and job title]
+###Screenshot <img width="1182" height="802" alt="05-ada-finance-profile" src="https://github.com/user-attachments/assets/6523c1fe-4dcf-4d16-b315-ac449042c138" />
+
+
+### Scope
+Verified group membership changes only.
+No application or document permissions are connected
+to these groups yet.
