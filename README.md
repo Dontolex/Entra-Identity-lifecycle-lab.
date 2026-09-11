@@ -155,7 +155,9 @@ Finance membership removal notification:
 
 ![Entra reports Ada's membership was removed; the list has not yet refreshed](07-finance-removal-notification-redacted.png)
 
-The second screenshot captures the successful removal notification while the previous member list is still visible. It does not capture the later absence check. A refreshed member-list screenshot remains to be added as evidence of that check.
+The second screenshot captures the successful removal notification while the previous member list is still visible. The refreshed view below confirms that SG-Finance-Readers has 0 direct members and Ada is absent.
+
+![Refreshed SG-Finance-Readers member list showing 0 group members, with personal account details redacted](08-finance-membership-removal-verified-redacted.png)
 
 ### Testing limitations
 
@@ -171,4 +173,4 @@ Account disablement, session revocation, and membership cleanup are separate off
 
 Completed a Joiner–Mover–Leaver exercise for one fictional employee. The lab demonstrates account administration, group membership management, and documentation of verification results.
 
-Next steps are to add the refreshed offboarding membership screenshot, review remaining screenshots for personal information before public release, and connect a group to a test resource to verify allowed and denied actions.
+Next steps are to locate the original HR membership screenshot, review remaining screenshots for personal information before public release, and connect a group to a test resource to verify allowed and denied actions.
