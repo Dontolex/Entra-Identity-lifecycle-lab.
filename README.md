@@ -4,6 +4,10 @@
 
 Core Joiner–Mover–Leaver exercise completed in a personal learning lab. Resource-access testing is a future extension.
 
+## Published walkthrough
+
+Read my Medium article: [My First IAM Lab: Managing an Employee’s Lifecycle with Microsoft Entra ID](https://medium.com/@adaramoyet/my-first-iam-lab-managing-an-employees-lifecycle-with-microsoft-entra-id-3ae5d141eb28).
+
 ## Objective
 
 Practise employee onboarding, department transfers, and offboarding in Microsoft Entra ID, and document account settings and group membership verification.
