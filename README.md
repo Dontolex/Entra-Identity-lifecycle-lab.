@@ -66,3 +66,25 @@ A user account represents an employee's digital identity.
 Setting the department to HR does not automatically grant
 access to HR resources.
 ### Screenshot
+
+## Activity 2 — Create an HR security group
+
+### Business requirement
+Organize HR employees who will need read-only access
+to employee records.
+
+### Actions completed
+- Created the security group SG-HR-Readers.
+- Used Assigned membership.
+- Added Ada Test as a member.
+
+### Verification
+Opened the group's Members page and confirmed
+Ada Test was listed.
+
+### What I learned
+Group membership lets administrators manage users together.
+The group does not yet grant access to employee records;
+resource permissions still need to be configured.
+
+###Screenshot<img width="1182" height="802" alt="02-hr-group-membership" src="https://github.com/user-attachments/assets/0ea8b9a6-e1c2-49be-bc6b-3e629c804b02" />
