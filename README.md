@@ -113,7 +113,36 @@ Manager approval is simulated for this lab.
 [Ada's updated Finance department and job title]
 ###Screenshot <img width="1182" height="802" alt="05-ada-finance-profile" src="https://github.com/user-attachments/assets/6523c1fe-4dcf-4d16-b315-ac449042c138" />
 
+## Activity 4 — Offboard an employee
 
+### Business scenario
+Ada has left the fictional company and no longer needs access.
+
+### Actions and verification
+- Disabled Ada's account and confirmed Account enabled was No.
+- Submitted Revoke sessions and received a success notification.
+- Removed Ada from SG-Finance-Readers.
+- Confirmed Ada was absent from the Finance group's member list.
+- Retained the disabled account for lab documentation.
+
+### Evidence
+![Ada's account disabled]
+##Screenshort<img width="1182" height="802" alt="07-ada-finance-membership-removed png" src="https://github.com/user-attachments/assets/c3be83b5-8ddd-47dc-b7d4-335503f44703" />
+
+
+![Finance membership after Ada was removed
+##Screenshort<img width="1182" height="802" alt="ade removed" src="https://github.com/user-attachments/assets/ddce4dc8-57d5-401d-9cea-883eec3ccf95" />
+
+
+### Testing limitations
+- No active-session sign-out test was performed.
+- No application or document permissions were connected to
+  the groups, so resource-access removal was not tested.
+
+### What I learned
+Offboarding involves disabling the account, requesting session
+revocation, removing unnecessary memberships, and verifying
+the results.
 ### Scope
 Verified group membership changes only.
 No application or document permissions are connected
